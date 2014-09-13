@@ -11,6 +11,8 @@
 		0E4DB5D519C346F2007AA8D6 /* common_permutations.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0E4DB5D419C346F2007AA8D6 /* common_permutations.1 */; };
 		0E4DB5E019C3CC28007AA8D6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E4DB5DF19C3CC28007AA8D6 /* main.cpp */; };
 		0E4DB5E219C3CC28007AA8D6 /* cryptkicker2.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0E4DB5E119C3CC28007AA8D6 /* cryptkicker2.1 */; };
+		0E4DB5ED19C4EDC3007AA8D6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E4DB5EC19C4EDC3007AA8D6 /* main.cpp */; };
+		0E4DB5EF19C4EDC3007AA8D6 /* doublets_10150.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0E4DB5EE19C4EDC3007AA8D6 /* doublets_10150.1 */; };
 		0E785C2419C2004500172267 /* wertyu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E785C2319C2004500172267 /* wertyu.cpp */; };
 		0E785C2619C2004500172267 /* wertyu.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0E785C2519C2004500172267 /* wertyu.1 */; };
 		0E785C3119C202B800172267 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E785C3019C202B800172267 /* main.cpp */; };
@@ -37,6 +39,16 @@
 			dstSubfolderSpec = 0;
 			files = (
 				0E4DB5E219C3CC28007AA8D6 /* cryptkicker2.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0E4DB5E819C4EDC3007AA8D6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				0E4DB5EF19C4EDC3007AA8D6 /* doublets_10150.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
@@ -79,6 +91,9 @@
 		0E4DB5DD19C3CC28007AA8D6 /* cryptkicker2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cryptkicker2; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E4DB5DF19C3CC28007AA8D6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		0E4DB5E119C3CC28007AA8D6 /* cryptkicker2.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = cryptkicker2.1; sourceTree = "<group>"; };
+		0E4DB5EA19C4EDC3007AA8D6 /* doublets-10150 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "doublets-10150"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E4DB5EC19C4EDC3007AA8D6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0E4DB5EE19C4EDC3007AA8D6 /* doublets_10150.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = doublets_10150.1; sourceTree = "<group>"; };
 		0E785C2119C2004500172267 /* wertyu */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = wertyu; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E785C2319C2004500172267 /* wertyu.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = wertyu.cpp; sourceTree = "<group>"; };
 		0E785C2519C2004500172267 /* wertyu.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = wertyu.1; sourceTree = "<group>"; };
@@ -99,6 +114,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0E4DB5DA19C3CC28007AA8D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E4DB5E719C4EDC3007AA8D6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -129,50 +151,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0E4DB5D119C346F2007AA8D6 /* common_permutations */ = {
+		0E4DB5D119C346F2007AA8D6 /* common_permutations-10252 */ = {
 			isa = PBXGroup;
 			children = (
 				0E4DB5D219C346F2007AA8D6 /* main.cpp */,
 				0E4DB5D419C346F2007AA8D6 /* common_permutations.1 */,
 			);
+			name = "common_permutations-10252";
 			path = common_permutations;
 			sourceTree = "<group>";
 		};
-		0E4DB5DE19C3CC28007AA8D6 /* cryptkicker2 */ = {
+		0E4DB5DE19C3CC28007AA8D6 /* cryptkicker2-850 */ = {
 			isa = PBXGroup;
 			children = (
 				0E4DB5DF19C3CC28007AA8D6 /* main.cpp */,
 				0E4DB5E119C3CC28007AA8D6 /* cryptkicker2.1 */,
 			);
+			name = "cryptkicker2-850";
 			path = cryptkicker2;
 			sourceTree = "<group>";
 		};
-		0E785C2219C2004500172267 /* wertyu */ = {
+		0E4DB5EB19C4EDC3007AA8D6 /* doublets-10150 */ = {
+			isa = PBXGroup;
+			children = (
+				0E4DB5EC19C4EDC3007AA8D6 /* main.cpp */,
+				0E4DB5EE19C4EDC3007AA8D6 /* doublets_10150.1 */,
+			);
+			path = "doublets-10150";
+			sourceTree = "<group>";
+		};
+		0E785C2219C2004500172267 /* wertyu-10082 */ = {
 			isa = PBXGroup;
 			children = (
 				0E785C2319C2004500172267 /* wertyu.cpp */,
 				0E785C2519C2004500172267 /* wertyu.1 */,
 			);
+			name = "wertyu-10082";
 			path = wertyu;
 			sourceTree = "<group>";
 		};
-		0E785C2F19C202B800172267 /* waldorf */ = {
+		0E785C2F19C202B800172267 /* waldorf-10010 */ = {
 			isa = PBXGroup;
 			children = (
 				0E785C3019C202B800172267 /* main.cpp */,
 				0E785C3219C202B800172267 /* waldorf.1 */,
 			);
+			name = "waldorf-10010";
 			path = waldorf;
 			sourceTree = "<group>";
 		};
 		0EAADF9919BA17A8008C0E8A = {
 			isa = PBXGroup;
 			children = (
-				0EAADFA419BA17A8008C0E8A /* fmt */,
-				0E785C2219C2004500172267 /* wertyu */,
-				0E785C2F19C202B800172267 /* waldorf */,
-				0E4DB5D119C346F2007AA8D6 /* common_permutations */,
-				0E4DB5DE19C3CC28007AA8D6 /* cryptkicker2 */,
+				0EAADFA419BA17A8008C0E8A /* fmt-848 */,
+				0E785C2219C2004500172267 /* wertyu-10082 */,
+				0E785C2F19C202B800172267 /* waldorf-10010 */,
+				0E4DB5D119C346F2007AA8D6 /* common_permutations-10252 */,
+				0E4DB5DE19C3CC28007AA8D6 /* cryptkicker2-850 */,
+				0E4DB5EB19C4EDC3007AA8D6 /* doublets-10150 */,
 				0EAADFA319BA17A8008C0E8A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -185,16 +221,18 @@
 				0E785C2E19C202B800172267 /* waldorf */,
 				0E4DB5D019C346F2007AA8D6 /* common_permutations */,
 				0E4DB5DD19C3CC28007AA8D6 /* cryptkicker2 */,
+				0E4DB5EA19C4EDC3007AA8D6 /* doublets-10150 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0EAADFA419BA17A8008C0E8A /* fmt */ = {
+		0EAADFA419BA17A8008C0E8A /* fmt-848 */ = {
 			isa = PBXGroup;
 			children = (
 				0EAADFA519BA17A8008C0E8A /* fmt.cpp */,
 				0EAADFA719BA17A8008C0E8A /* fmt.1 */,
 			);
+			name = "fmt-848";
 			path = fmt;
 			sourceTree = "<group>";
 		};
@@ -233,6 +271,23 @@
 			name = cryptkicker2;
 			productName = cryptkicker2;
 			productReference = 0E4DB5DD19C3CC28007AA8D6 /* cryptkicker2 */;
+			productType = "com.apple.product-type.tool";
+		};
+		0E4DB5E919C4EDC3007AA8D6 /* doublets-10150 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E4DB5F019C4EDC3007AA8D6 /* Build configuration list for PBXNativeTarget "doublets-10150" */;
+			buildPhases = (
+				0E4DB5E619C4EDC3007AA8D6 /* Sources */,
+				0E4DB5E719C4EDC3007AA8D6 /* Frameworks */,
+				0E4DB5E819C4EDC3007AA8D6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "doublets-10150";
+			productName = "doublets-10150";
+			productReference = 0E4DB5EA19C4EDC3007AA8D6 /* doublets-10150 */;
 			productType = "com.apple.product-type.tool";
 		};
 		0E785C2019C2004500172267 /* wertyu */ = {
@@ -312,6 +367,7 @@
 				0E785C2D19C202B800172267 /* waldorf */,
 				0E4DB5CF19C346F2007AA8D6 /* common_permutations */,
 				0E4DB5DC19C3CC28007AA8D6 /* cryptkicker2 */,
+				0E4DB5E919C4EDC3007AA8D6 /* doublets-10150 */,
 			);
 		};
 /* End PBXProject section */
@@ -330,6 +386,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E4DB5E019C3CC28007AA8D6 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E4DB5E619C4EDC3007AA8D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E4DB5ED19C4EDC3007AA8D6 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +454,24 @@
 			name = Debug;
 		};
 		0E4DB5E519C3CC28007AA8D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0E4DB5F119C4EDC3007AA8D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E4DB5F219C4EDC3007AA8D6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -530,6 +612,14 @@
 			buildConfigurations = (
 				0E4DB5E419C3CC28007AA8D6 /* Debug */,
 				0E4DB5E519C3CC28007AA8D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0E4DB5F019C4EDC3007AA8D6 /* Build configuration list for PBXNativeTarget "doublets-10150" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E4DB5F119C4EDC3007AA8D6 /* Debug */,
+				0E4DB5F219C4EDC3007AA8D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
