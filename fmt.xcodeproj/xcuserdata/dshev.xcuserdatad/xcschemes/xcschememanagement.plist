@@ -4,14 +4,54 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>common_permutations.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>cryptkicker2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>fmt.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>waldorf.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>wertyu.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>0E4DB5CF19C346F2007AA8D6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E4DB5DC19C3CC28007AA8D6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E785C2019C2004500172267</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E785C2D19C202B800172267</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>0EAADFA119BA17A8008C0E8A</key>
 		<dict>
 			<key>primary</key>

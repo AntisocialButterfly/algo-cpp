@@ -7,11 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0EAADFA619BA17A8008C0E8A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EAADFA519BA17A8008C0E8A /* main.cpp */; };
+		0E4DB5D319C346F2007AA8D6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E4DB5D219C346F2007AA8D6 /* main.cpp */; };
+		0E4DB5D519C346F2007AA8D6 /* common_permutations.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0E4DB5D419C346F2007AA8D6 /* common_permutations.1 */; };
+		0E4DB5E019C3CC28007AA8D6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E4DB5DF19C3CC28007AA8D6 /* main.cpp */; };
+		0E4DB5E219C3CC28007AA8D6 /* cryptkicker2.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0E4DB5E119C3CC28007AA8D6 /* cryptkicker2.1 */; };
+		0E785C2419C2004500172267 /* wertyu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E785C2319C2004500172267 /* wertyu.cpp */; };
+		0E785C2619C2004500172267 /* wertyu.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0E785C2519C2004500172267 /* wertyu.1 */; };
+		0E785C3119C202B800172267 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E785C3019C202B800172267 /* main.cpp */; };
+		0E785C3319C202B800172267 /* waldorf.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0E785C3219C202B800172267 /* waldorf.1 */; };
+		0EAADFA619BA17A8008C0E8A /* fmt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EAADFA519BA17A8008C0E8A /* fmt.cpp */; };
 		0EAADFA819BA17A8008C0E8A /* fmt.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0EAADFA719BA17A8008C0E8A /* fmt.1 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		0E4DB5CE19C346F2007AA8D6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				0E4DB5D519C346F2007AA8D6 /* common_permutations.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0E4DB5DB19C3CC28007AA8D6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				0E4DB5E219C3CC28007AA8D6 /* cryptkicker2.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0E785C1F19C2004500172267 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				0E785C2619C2004500172267 /* wertyu.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0E785C2C19C202B800172267 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				0E785C3319C202B800172267 /* waldorf.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		0EAADFA019BA17A8008C0E8A /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -25,12 +73,52 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0E4DB5D019C346F2007AA8D6 /* common_permutations */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = common_permutations; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E4DB5D219C346F2007AA8D6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0E4DB5D419C346F2007AA8D6 /* common_permutations.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = common_permutations.1; sourceTree = "<group>"; };
+		0E4DB5DD19C3CC28007AA8D6 /* cryptkicker2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cryptkicker2; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E4DB5DF19C3CC28007AA8D6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0E4DB5E119C3CC28007AA8D6 /* cryptkicker2.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = cryptkicker2.1; sourceTree = "<group>"; };
+		0E785C2119C2004500172267 /* wertyu */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = wertyu; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E785C2319C2004500172267 /* wertyu.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = wertyu.cpp; sourceTree = "<group>"; };
+		0E785C2519C2004500172267 /* wertyu.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = wertyu.1; sourceTree = "<group>"; };
+		0E785C2E19C202B800172267 /* waldorf */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = waldorf; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E785C3019C202B800172267 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0E785C3219C202B800172267 /* waldorf.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = waldorf.1; sourceTree = "<group>"; };
 		0EAADFA219BA17A8008C0E8A /* fmt */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = fmt; sourceTree = BUILT_PRODUCTS_DIR; };
-		0EAADFA519BA17A8008C0E8A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0EAADFA519BA17A8008C0E8A /* fmt.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fmt.cpp; sourceTree = "<group>"; };
 		0EAADFA719BA17A8008C0E8A /* fmt.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = fmt.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0E4DB5CD19C346F2007AA8D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E4DB5DA19C3CC28007AA8D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E785C1E19C2004500172267 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E785C2B19C202B800172267 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0EAADF9F19BA17A8008C0E8A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -41,10 +129,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E4DB5D119C346F2007AA8D6 /* common_permutations */ = {
+			isa = PBXGroup;
+			children = (
+				0E4DB5D219C346F2007AA8D6 /* main.cpp */,
+				0E4DB5D419C346F2007AA8D6 /* common_permutations.1 */,
+			);
+			path = common_permutations;
+			sourceTree = "<group>";
+		};
+		0E4DB5DE19C3CC28007AA8D6 /* cryptkicker2 */ = {
+			isa = PBXGroup;
+			children = (
+				0E4DB5DF19C3CC28007AA8D6 /* main.cpp */,
+				0E4DB5E119C3CC28007AA8D6 /* cryptkicker2.1 */,
+			);
+			path = cryptkicker2;
+			sourceTree = "<group>";
+		};
+		0E785C2219C2004500172267 /* wertyu */ = {
+			isa = PBXGroup;
+			children = (
+				0E785C2319C2004500172267 /* wertyu.cpp */,
+				0E785C2519C2004500172267 /* wertyu.1 */,
+			);
+			path = wertyu;
+			sourceTree = "<group>";
+		};
+		0E785C2F19C202B800172267 /* waldorf */ = {
+			isa = PBXGroup;
+			children = (
+				0E785C3019C202B800172267 /* main.cpp */,
+				0E785C3219C202B800172267 /* waldorf.1 */,
+			);
+			path = waldorf;
+			sourceTree = "<group>";
+		};
 		0EAADF9919BA17A8008C0E8A = {
 			isa = PBXGroup;
 			children = (
 				0EAADFA419BA17A8008C0E8A /* fmt */,
+				0E785C2219C2004500172267 /* wertyu */,
+				0E785C2F19C202B800172267 /* waldorf */,
+				0E4DB5D119C346F2007AA8D6 /* common_permutations */,
+				0E4DB5DE19C3CC28007AA8D6 /* cryptkicker2 */,
 				0EAADFA319BA17A8008C0E8A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,6 +181,10 @@
 			isa = PBXGroup;
 			children = (
 				0EAADFA219BA17A8008C0E8A /* fmt */,
+				0E785C2119C2004500172267 /* wertyu */,
+				0E785C2E19C202B800172267 /* waldorf */,
+				0E4DB5D019C346F2007AA8D6 /* common_permutations */,
+				0E4DB5DD19C3CC28007AA8D6 /* cryptkicker2 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,7 +192,7 @@
 		0EAADFA419BA17A8008C0E8A /* fmt */ = {
 			isa = PBXGroup;
 			children = (
-				0EAADFA519BA17A8008C0E8A /* main.cpp */,
+				0EAADFA519BA17A8008C0E8A /* fmt.cpp */,
 				0EAADFA719BA17A8008C0E8A /* fmt.1 */,
 			);
 			path = fmt;
@@ -69,6 +201,74 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0E4DB5CF19C346F2007AA8D6 /* common_permutations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E4DB5D819C346F2007AA8D6 /* Build configuration list for PBXNativeTarget "common_permutations" */;
+			buildPhases = (
+				0E4DB5CC19C346F2007AA8D6 /* Sources */,
+				0E4DB5CD19C346F2007AA8D6 /* Frameworks */,
+				0E4DB5CE19C346F2007AA8D6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = common_permutations;
+			productName = common_permutations;
+			productReference = 0E4DB5D019C346F2007AA8D6 /* common_permutations */;
+			productType = "com.apple.product-type.tool";
+		};
+		0E4DB5DC19C3CC28007AA8D6 /* cryptkicker2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E4DB5E319C3CC28007AA8D6 /* Build configuration list for PBXNativeTarget "cryptkicker2" */;
+			buildPhases = (
+				0E4DB5D919C3CC28007AA8D6 /* Sources */,
+				0E4DB5DA19C3CC28007AA8D6 /* Frameworks */,
+				0E4DB5DB19C3CC28007AA8D6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cryptkicker2;
+			productName = cryptkicker2;
+			productReference = 0E4DB5DD19C3CC28007AA8D6 /* cryptkicker2 */;
+			productType = "com.apple.product-type.tool";
+		};
+		0E785C2019C2004500172267 /* wertyu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E785C2719C2004500172267 /* Build configuration list for PBXNativeTarget "wertyu" */;
+			buildPhases = (
+				0E785C1D19C2004500172267 /* Sources */,
+				0E785C1E19C2004500172267 /* Frameworks */,
+				0E785C1F19C2004500172267 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wertyu;
+			productName = wertyu;
+			productReference = 0E785C2119C2004500172267 /* wertyu */;
+			productType = "com.apple.product-type.tool";
+		};
+		0E785C2D19C202B800172267 /* waldorf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E785C3419C202B800172267 /* Build configuration list for PBXNativeTarget "waldorf" */;
+			buildPhases = (
+				0E785C2A19C202B800172267 /* Sources */,
+				0E785C2B19C202B800172267 /* Frameworks */,
+				0E785C2C19C202B800172267 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = waldorf;
+			productName = waldorf;
+			productReference = 0E785C2E19C202B800172267 /* waldorf */;
+			productType = "com.apple.product-type.tool";
+		};
 		0EAADFA119BA17A8008C0E8A /* fmt */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0EAADFAB19BA17A8008C0E8A /* Build configuration list for PBXNativeTarget "fmt" */;
@@ -108,22 +308,130 @@
 			projectRoot = "";
 			targets = (
 				0EAADFA119BA17A8008C0E8A /* fmt */,
+				0E785C2019C2004500172267 /* wertyu */,
+				0E785C2D19C202B800172267 /* waldorf */,
+				0E4DB5CF19C346F2007AA8D6 /* common_permutations */,
+				0E4DB5DC19C3CC28007AA8D6 /* cryptkicker2 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0E4DB5CC19C346F2007AA8D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E4DB5D319C346F2007AA8D6 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E4DB5D919C3CC28007AA8D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E4DB5E019C3CC28007AA8D6 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E785C1D19C2004500172267 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E785C2419C2004500172267 /* wertyu.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E785C2A19C202B800172267 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E785C3119C202B800172267 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0EAADF9E19BA17A8008C0E8A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EAADFA619BA17A8008C0E8A /* main.cpp in Sources */,
+				0EAADFA619BA17A8008C0E8A /* fmt.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		0E4DB5D619C346F2007AA8D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E4DB5D719C346F2007AA8D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0E4DB5E419C3CC28007AA8D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E4DB5E519C3CC28007AA8D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0E785C2819C2004500172267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E785C2919C2004500172267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0E785C3519C202B800172267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E785C3619C202B800172267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		0EAADFA919BA17A8008C0E8A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -209,6 +517,40 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0E4DB5D819C346F2007AA8D6 /* Build configuration list for PBXNativeTarget "common_permutations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E4DB5D619C346F2007AA8D6 /* Debug */,
+				0E4DB5D719C346F2007AA8D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0E4DB5E319C3CC28007AA8D6 /* Build configuration list for PBXNativeTarget "cryptkicker2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E4DB5E419C3CC28007AA8D6 /* Debug */,
+				0E4DB5E519C3CC28007AA8D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0E785C2719C2004500172267 /* Build configuration list for PBXNativeTarget "wertyu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E785C2819C2004500172267 /* Debug */,
+				0E785C2919C2004500172267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E785C3419C202B800172267 /* Build configuration list for PBXNativeTarget "waldorf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E785C3519C202B800172267 /* Debug */,
+				0E785C3619C202B800172267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		0EAADF9D19BA17A8008C0E8A /* Build configuration list for PBXProject "fmt" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -225,6 +567,7 @@
 				0EAADFAD19BA17A8008C0E8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
