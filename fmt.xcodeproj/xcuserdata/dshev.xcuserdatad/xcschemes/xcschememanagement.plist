@@ -34,6 +34,11 @@
 			<key>orderHint</key>
 			<integer>7</integer>
 		</dict>
+		<key>vitos-family-10041.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
 		<key>waldorf.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -68,6 +73,11 @@
 			<true/>
 		</dict>
 		<key>0E4DB60319C55B44007AA8D6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E4DB61019C5FFE8007AA8D6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
