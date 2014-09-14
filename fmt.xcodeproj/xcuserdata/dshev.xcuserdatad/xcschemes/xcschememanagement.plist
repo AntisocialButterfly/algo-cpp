@@ -19,10 +19,20 @@
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
+		<key>file-fragmentation-10132.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
 		<key>fmt.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>judge-script-10188.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
 		</dict>
 		<key>waldorf.xcscheme</key>
 		<dict>
@@ -48,6 +58,16 @@
 			<true/>
 		</dict>
 		<key>0E4DB5E919C4EDC3007AA8D6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E4DB5F619C4F0D5007AA8D6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E4DB60319C55B44007AA8D6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
