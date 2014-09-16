@@ -19,6 +19,8 @@
 		0E4DB60919C55B45007AA8D6 /* judge_script_10188.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0E4DB60819C55B45007AA8D6 /* judge_script_10188.1 */; };
 		0E4DB61419C5FFE9007AA8D6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E4DB61319C5FFE9007AA8D6 /* main.cpp */; };
 		0E4DB61619C5FFE9007AA8D6 /* vitos_family_10041.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0E4DB61519C5FFE9007AA8D6 /* vitos_family_10041.1 */; };
+		0E4DB62119C64330007AA8D6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E4DB62019C64330007AA8D6 /* main.cpp */; };
+		0E4DB62319C64330007AA8D6 /* flapjacks_120.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0E4DB62219C64330007AA8D6 /* flapjacks_120.1 */; };
 		0E785C2419C2004500172267 /* wertyu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E785C2319C2004500172267 /* wertyu.cpp */; };
 		0E785C2619C2004500172267 /* wertyu.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0E785C2519C2004500172267 /* wertyu.1 */; };
 		0E785C3119C202B800172267 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E785C3019C202B800172267 /* main.cpp */; };
@@ -88,6 +90,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		0E4DB61C19C64330007AA8D6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				0E4DB62319C64330007AA8D6 /* flapjacks_120.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		0E785C1F19C2004500172267 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -139,6 +151,9 @@
 		0E4DB61119C5FFE8007AA8D6 /* vitos-family-10041 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "vitos-family-10041"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E4DB61319C5FFE9007AA8D6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		0E4DB61519C5FFE9007AA8D6 /* vitos_family_10041.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = vitos_family_10041.1; sourceTree = "<group>"; };
+		0E4DB61E19C64330007AA8D6 /* flapjacks-120 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "flapjacks-120"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E4DB62019C64330007AA8D6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0E4DB62219C64330007AA8D6 /* flapjacks_120.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = flapjacks_120.1; sourceTree = "<group>"; };
 		0E785C2119C2004500172267 /* wertyu */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = wertyu; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E785C2319C2004500172267 /* wertyu.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = wertyu.cpp; sourceTree = "<group>"; };
 		0E785C2519C2004500172267 /* wertyu.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = wertyu.1; sourceTree = "<group>"; };
@@ -187,6 +202,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0E4DB60E19C5FFE8007AA8D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E4DB61B19C64330007AA8D6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -273,6 +295,15 @@
 			path = "vitos-family-10041";
 			sourceTree = "<group>";
 		};
+		0E4DB61F19C64330007AA8D6 /* flapjacks-120 */ = {
+			isa = PBXGroup;
+			children = (
+				0E4DB62019C64330007AA8D6 /* main.cpp */,
+				0E4DB62219C64330007AA8D6 /* flapjacks_120.1 */,
+			);
+			path = "flapjacks-120";
+			sourceTree = "<group>";
+		};
 		0E785C2219C2004500172267 /* wertyu-10082 */ = {
 			isa = PBXGroup;
 			children = (
@@ -305,6 +336,7 @@
 				0E4DB5F819C4F0D5007AA8D6 /* file-fragmentation-10132 */,
 				0E4DB60519C55B45007AA8D6 /* judge-script-10188 */,
 				0E4DB61219C5FFE9007AA8D6 /* vitos-family-10041 */,
+				0E4DB61F19C64330007AA8D6 /* flapjacks-120 */,
 				0EAADFA319BA17A8008C0E8A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -321,6 +353,7 @@
 				0E4DB5F719C4F0D5007AA8D6 /* file-fragmentation-10132 */,
 				0E4DB60419C55B45007AA8D6 /* judge-script-10188 */,
 				0E4DB61119C5FFE8007AA8D6 /* vitos-family-10041 */,
+				0E4DB61E19C64330007AA8D6 /* flapjacks-120 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -440,6 +473,23 @@
 			productReference = 0E4DB61119C5FFE8007AA8D6 /* vitos-family-10041 */;
 			productType = "com.apple.product-type.tool";
 		};
+		0E4DB61D19C64330007AA8D6 /* flapjacks-120 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E4DB62419C64330007AA8D6 /* Build configuration list for PBXNativeTarget "flapjacks-120" */;
+			buildPhases = (
+				0E4DB61A19C64330007AA8D6 /* Sources */,
+				0E4DB61B19C64330007AA8D6 /* Frameworks */,
+				0E4DB61C19C64330007AA8D6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "flapjacks-120";
+			productName = "flapjacks-120";
+			productReference = 0E4DB61E19C64330007AA8D6 /* flapjacks-120 */;
+			productType = "com.apple.product-type.tool";
+		};
 		0E785C2019C2004500172267 /* wertyu */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E785C2719C2004500172267 /* Build configuration list for PBXNativeTarget "wertyu" */;
@@ -521,6 +571,7 @@
 				0E4DB5F619C4F0D5007AA8D6 /* file-fragmentation-10132 */,
 				0E4DB60319C55B44007AA8D6 /* judge-script-10188 */,
 				0E4DB61019C5FFE8007AA8D6 /* vitos-family-10041 */,
+				0E4DB61D19C64330007AA8D6 /* flapjacks-120 */,
 			);
 		};
 /* End PBXProject section */
@@ -571,6 +622,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E4DB61419C5FFE9007AA8D6 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E4DB61A19C64330007AA8D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E4DB62119C64330007AA8D6 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -703,6 +762,24 @@
 			name = Debug;
 		};
 		0E4DB61919C5FFE9007AA8D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0E4DB62519C64330007AA8D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E4DB62619C64330007AA8D6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -875,6 +952,14 @@
 			buildConfigurations = (
 				0E4DB61819C5FFE9007AA8D6 /* Debug */,
 				0E4DB61919C5FFE9007AA8D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0E4DB62419C64330007AA8D6 /* Build configuration list for PBXNativeTarget "flapjacks-120" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E4DB62519C64330007AA8D6 /* Debug */,
+				0E4DB62619C64330007AA8D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

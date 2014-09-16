@@ -24,6 +24,11 @@
 			<key>orderHint</key>
 			<integer>6</integer>
 		</dict>
+		<key>flapjacks-120.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
 		<key>fmt.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -78,6 +83,11 @@
 			<true/>
 		</dict>
 		<key>0E4DB61019C5FFE8007AA8D6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E4DB61D19C64330007AA8D6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
